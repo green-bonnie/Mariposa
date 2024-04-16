@@ -4,7 +4,7 @@ import './footer.css';
 
 function Footer() {
     return (
-        <div className="Foot">
+        <div className="Footer">
             <img className="butterfly" src={require("./MBS LogoW.png")} alt="Butterfly"></img>
             <a href="https://www.instagram.com/mariposabirthservices/" target="_blank" rel="noreferrer">
              <button className="follow">FOLLOW US @MARIPOSABIRTHSERVICES</button>
