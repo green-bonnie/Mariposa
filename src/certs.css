@@ -1,0 +1,27 @@
+@media screen and (width <= 414px) {
+    .certs {
+        width: 100%;
+    }
+}
+
+.certs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    padding: 40px;
+    margin: 40px;
+    position: fixed;
+}
+
+.Spin {
+    height: 50%;
+    width: 80%;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.words {
+    font-family: 'Montserrat';
+}

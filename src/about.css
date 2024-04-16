@@ -1,0 +1,41 @@
+@media screen and (width <= 414px) {
+    .about {
+        width: 100%;
+    }
+}
+
+.about {
+    background-color:#405954;
+}
+
+.M {
+    flex: 10%;
+    margin-top: 70px;
+    font-family: 'Parisienne';
+    font-size: 50px;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.M-Bio {
+    flex: 40%;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px 50px 20px;
+    box-shadow: 10px 10px 5px 12px #CBC0AF;
+    background-color: #CBC0AF;
+    border-radius: 15px 50px 30px;
+    opacity: 0.7;
+    color: black;
+    word-wrap: break-word;
+}
+
+.Bethany {
+    flex: 50%;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% / 60% 60% 0 0;
+    padding: 100px;
+    align-items: center;
+}

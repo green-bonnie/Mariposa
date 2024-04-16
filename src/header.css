@@ -1,0 +1,23 @@
+@media screen and (width <= 414px) {
+    .about {
+        width: 100%;
+    }
+}
+
+.nav {
+    background-color:#CBC0AF;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color:#3D3D3D;
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}

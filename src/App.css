@@ -1,0 +1,49 @@
+@media screen and (width <= 375px) {
+  .App {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:#CBC0AF;
+  overflow: scroll;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav-list li{
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color:#3D3D3D;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* .App-header {
+  background-color: #CBC0AF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #3D3D3D;
+} */

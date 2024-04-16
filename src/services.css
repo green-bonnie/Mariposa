@@ -1,0 +1,61 @@
+@media screen and (max-width: 1080px) {
+    .Services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.Services {
+    background-color: #CBC0AF;
+    display: inline-flex;
+    height: auto;
+    padding: 30px;
+    margin: 30px;
+}
+
+.Birth {
+    background-color: #CB936D;
+    flex: 50%;
+    border: 10px solid #CBC0AF;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+}
+
+.birth {
+    width: 50%;
+}
+
+.Postpartum {
+    background-color: #CB936D;
+    flex: 50%;
+    border: 10px solid #CBC0AF;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.postpartum {
+    width: 50%;
+}
+
+.Placenta {
+    background-color: #CB936D;
+    flex: 50%;
+    border: 10px solid #CBC0AF;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+}
+
+.placenta {
+    width: 50%;
+}
+
+.title {
+    font-family: 'Courgette';
+}
