@@ -61,6 +61,7 @@ const Contact = () => {
                     rows="6" />
           <input type="submit" value="Send" />
         </form>
+        <a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Or give me a call! (817) 932-0073</a>
       </Element>
     )
 }
