@@ -43,6 +43,8 @@ const Contact = () => {
             <option value="birth">Birth Doula</option>
             <option value="postpartum">Postpartum Doula</option>
             <option value="combo">Birth & Postpartum Doula Combo</option>
+            <option value="placenta">Placenta Encapsulation</option>
+            <option value="everything">Everything</option>
           </select>
           <label>How did you hear about us?</label>
           <select name="where">
@@ -61,8 +63,11 @@ const Contact = () => {
                     rows="6" />
           <input type="submit" value="Send" />
         </form>
-        <a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Or give me a call! (817) 932-0073</a>
+        <img className="phone" src="./phone-call.png" alt="phone" />
+        <h1>Or give me a call!</h1>
+        <a className="number" href="tel:8179320073">(817) 932-0073</a>
       </Element>
+      
     )
 }
 
